@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'montserrat';
+   
+}
+.containerr{
+    width: 100%;
+    min-height:5px;
+    height: 70px;
+    background-color: #02676e;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.navbar{
+    width: 100%;
+    display:flex;
+    align-items: center;
+}
+.navbar h1{
+    color: #fff;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'montserrat';
+    font-size: 32px;
+    font-weight: 200;
+}
+.navbar h1 span{
+    font-weight: 800;
+    color: rgb(247, 9, 9);
+}
+.menu-icon{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+nav{
+   flex: 1;
+   text-align: right; 
+   margin-right: 50px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+    
+}
+nav li a button{
+    margin-right: -50px;
+    list-style: none;
+    display: inline-block;
+    color: #000;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(185, 182, 182);
+    font-size: 14px;
+}
+#log{
+    text-decoration: none;
+    color: rgb(137, 167, 242);
+    font-size: 14px;
+}
+#log:hover
+{
+    color:#ff575a ;
+}
+nav ul li a:hover{
+    color: #ff575a;
+}
+.droupdown_menu{
+    display: none;
+}
+nav ul li:hover.droupdown_menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--color-black);
+
+}
+nav ul li:hover.droupdown_menu ul{
+    display: block;
+    margin: 10px;
+}
+nav ul li:hover.droupdown_menu ul li{
+    width: 150px;
+    padding: 10px;
+}
+.fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+@media (max-width: 991px){
+    nav ul{
+        width: 100%;
+        background: linear-gradient(#ff54a2,#ff575a);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menulist{
+        overflow:hidden;
+        transition: 0.5s;
+    }
+    .mobile-menu{
+        margin-top: 0px;
+    }
+}

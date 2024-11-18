@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .image{
+    width: 50%;
+    margin-left: 5%;
+  }
+  
+  img {
+    height: 400px;
+    width: 500px;
+    margin-top: 2em;
+    border-radius: 10px;
+  }
+  
+  .content {
+   
+    margin: 30px auto;
+    width: 50%;
+    margin-left: 5%;
+  }
+  .content h1{
+    color: blue;
+  }
+  .photos-container{
+    margin-top: 50px;
+  }
+  .photos-container img {
+    display: inline-block;
+    width: 70px; 
+    height: 70px;
+    margin: 0 2%;
+    border-radius: 50px; 
+  }
+  .name{
+    display: inline-block;
+  }
+  

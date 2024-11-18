@@ -1,0 +1,109 @@
+.wrapper{
+    height: 475px;
+    width:100%;
+    }
+    .formBox{
+        width: 30%;
+        height: 120%;
+        position: relative;
+        margin: 1% auto;
+        background: rgb(253, 236, 228);
+        padding: 1%;
+        box-shadow: 0 0 30px 2px rgb(58, 58, 56);
+        border-radius: 10px;
+        top: 60px;
+    
+    }
+    .buttonArea{
+        width: 60%;
+        margin: 10% auto;
+        position: relative;
+        box-shadow: 0 0 20px 3px rgba(252, 115, 24, 0.623);
+        border-radius: 30px;
+        top: -20px;
+    }
+    .social{
+        margin: 30px auto;
+        text-align: center;
+    }
+    .social{
+        box-shadow: 0 0 20px 0 #faab8c3d;
+        cursor: pointer;
+        border-radius: 50%;
+        text-align: calc(center);
+        padding-bottom: 7px;
+
+    }
+    .social a{
+        font-size: 20px;
+        color: #f79749;
+        border: 0.8px solid rgb(248, 131, 63);
+        width: 40px;
+        height: 40px;line-height: 38px;
+        display: inline-block;
+        text-align: center;
+         border-radius: 50px;
+         margin: 0 8px;
+         opacity: 0.5;
+    }
+    .toggleBtn{
+        padding: 5% 5%;
+        cursor: pointer;
+        background: transparent;
+        border:0;
+        outline: none;
+        position: relative;
+        width: 45%;
+    }
+    #btn{
+    top:0;
+    left:0;
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border-radius: 30px;
+    transition: .5s;
+    }
+    .inputGroup{
+        top:15%;
+        position: absolute;
+        width: 80%;
+        transition: .5s;
+        margin-left: 10%;
+    }
+    .inputField{
+        width: 100%;
+        padding: 5% 0;
+        margin: 3% 0;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+        border-bottom: 1px solid rgb(8, 8, 8);
+        outline: none;
+        background: transparent;
+    }
+    .inputField:hover{
+        background-color: transparent;
+    }
+
+    .submitBtn{
+        width: 50%;
+        padding: 5% 10%;
+        cursor: pointer;
+        display: block;
+        margin: 10% auto;
+        background: linear-gradient(to right,#ff105f,#ffad06);
+        border: 0;
+        outline: none;
+        border-radius: 30px;
+    }
+    #login{
+        top: 200px;
+        left:1%;
+    }
+    #register{
+        top: 165px;
+        left:1%;
+        display: none;
+    }
